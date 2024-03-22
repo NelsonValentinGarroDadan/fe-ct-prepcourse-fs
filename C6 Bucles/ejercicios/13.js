@@ -5,6 +5,8 @@ function esEntero(num) {
   // Ejemplo: (-10) ---> true
   // De lo contrario, retorna false.
   // Tu código:
+  let absNum = Math.abs(num);
+  return absNum- Math.floor(absNum) == 0;
 }
 
 module.exports = esEntero;
