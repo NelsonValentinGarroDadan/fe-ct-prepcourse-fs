@@ -4,6 +4,7 @@ function dePalabrasAFrase(palabras) {
   // con un espacio entre cada palabra.
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'.
   // Tu código:
+  let resultado = palabras.toString().replace(","," ");
+  return resultado;
 }
-
 module.exports = dePalabrasAFrase;
